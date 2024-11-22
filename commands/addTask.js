@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require("uuid"); // Import the UUID library for generatin
 const addTask = ([description]) => {
   //chack if a description was provided, if not log a message
   if (!description) {
-    console.log("Error: Description is requires");
+    console.log("Error: Description is required");
     return;
   }
 
